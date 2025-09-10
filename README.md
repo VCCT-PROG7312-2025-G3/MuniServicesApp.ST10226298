@@ -1,6 +1,6 @@
 # Municipal Services Application 
 
-A fun and user-friendly C# .NET Framework Windows Forms application for South African municipal services that lets citizens report issues and request services in a casual, engaging way!
+A user-friendly C# .NET Framework Windows Forms application for South African municipal services that lets citizens report issues and request services in a casual, engaging way.
 
 ## Features 
 
@@ -26,13 +26,13 @@ A fun and user-friendly C# .NET Framework Windows Forms application for South Af
 
 ## How to Compile and Run 
 
-### Using Visual Studio (Recommended)
+### Using Visual Studio 
 1. Open `MuniServicesApp.sln` in Visual Studio
 2. Make sure you have .NET Framework 4.8 installed
 3. Press `F5` or click "Start" to build and run
 4. The main menu will appear - click "Report Issues" to get started!
 
-### Using Command Line (Alternative)
+### Using Command Line 
 ```bash
 # Navigate to the project directory
 cd MuniServicesApp
@@ -56,7 +56,7 @@ bin\Debug\MuniServicesApp.exe
    - Potholes & Road Issues 
    - Water Problems 
    - Electricity Issues 
-   - Garbage Collection 🗑
+   - Garbage Collection 
    
 3. **Description**: Write all the details about the issue
 4. **Attach Files**: Add photos or documents (optional)
@@ -84,51 +84,21 @@ MuniServicesApp/
 
 ## Requirements Met 
 
-- ✅ Main menu with three options (Report Issues active, others disabled)
-- ✅ Location input textbox
-- ✅ Category selection dropdown
-- ✅ Rich text description box
-- ✅ File attachment with OpenFileDialog
-- ✅ Submit button functionality
-- ✅ User engagement features (progress bar, encouraging messages)
-- ✅ Navigation buttons (Back to Main Menu)
-- ✅ Consistent casual design with fun colors and emojis
-- ✅ Form validation and user feedback
-- ✅ Data structures for storing issues
-- ✅ Event handling for all interactions
+- Main menu with three options (Report Issues active, others disabled)
+- Location input textbox
+- Category selection dropdown
+- Rich text description box
+- File attachment with OpenFileDialog
+- Submit button functionality
+- User engagement features (progress bar, encouraging messages)
+- Navigation buttons (Back to Main Menu)
+- Consistent casual design with fun colors and emojis
+- Form validation and user feedback
+- Data structures for storing issues
+- Event handling for all interactions
 
-## Design Philosophy 
 
-This app uses a deliberately casual, less professional design approach:
-- Comic Sans MS font throughout
-- Bright, fun colors (orange, light blue, light green)
-- Lots of emojis in the interface
-- Encouraging, friendly messages
-- Casual language ("Oops!", "Don't forget!", "You're awesome!")
-- Light yellow background for a warm feel
 
-## Troubleshooting 
-
-**App won't start?**
-- Make sure .NET Framework 4.8 is installed
-- Try rebuilding the solution in Visual Studio
-
-**Can't attach files?**
-- Check file permissions
-- Make sure the file isn't in use by another program
-
-**Form validation errors?**
-- Fill in all required fields (location, category, description)
-- The app will tell you what's missing with friendly messages!
-
-## Future Features 
-
-- Local Events and Announcements
-- Service Request Status tracking
-- Database storage instead of in-memory
-- Email notifications
-- Photo editing tools
-
----
 
 ST10226298
+Kyle Pillay
