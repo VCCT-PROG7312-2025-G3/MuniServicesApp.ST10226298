@@ -1,19 +1,19 @@
-# Municipal Services Application 🏘️
+# Municipal Services Application 
 
 A fun and user-friendly C# .NET Framework Windows Forms application for South African municipal services that lets citizens report issues and request services in a casual, engaging way!
 
-## Features ✨
+## Features 
 
 - **Main Menu**: Three service options with only "Report Issues" currently active
 - **Report Issues Form**: Complete issue reporting with:
-  - Location input field 📍
-  - Category dropdown with fun emojis 📋
-  - Rich text description box 📝
-  - File attachment system (images, documents) 📎
-  - Progress bar with encouraging messages 🌟
-  - Form validation and user feedback 🚨
+  - Location input field 
+  - Category dropdown with fun emojis 
+  - Rich text description box 
+  - File attachment system (images, documents) 
+  - Progress bar with encouraging messages 
+  - Form validation and user feedback 
 
-## Technical Stuff 🔧
+## Technical Stuff 
 
 - **Framework**: .NET Framework 4.8
 - **UI**: Windows Forms with Comic Sans MS font for a casual feel
@@ -24,13 +24,13 @@ A fun and user-friendly C# .NET Framework Windows Forms application for South Af
 - **Data Storage**: In-memory storage using List<Issue>
 - **File Handling**: OpenFileDialog for multiple file attachments
 
-## How to Compile and Run 🚀
+## How to Compile and Run 
 
 ### Using Visual Studio (Recommended)
 1. Open `MuniServicesApp.sln` in Visual Studio
 2. Make sure you have .NET Framework 4.8 installed
 3. Press `F5` or click "Start" to build and run
-4. The main menu will appear - click "🚨 Report Issues" to get started!
+4. The main menu will appear - click "Report Issues" to get started!
 
 ### Using Command Line (Alternative)
 ```bash
@@ -44,31 +44,31 @@ msbuild MuniServicesApp.csproj
 bin\Debug\MuniServicesApp.exe
 ```
 
-## How to Use the App 📱
+## How to Use the App 
 
 ### Main Menu
-- Click "🚨 Report Issues" to report a problem
+- Click "Report Issues" to report a problem
 - Other options are disabled for now (coming soon!)
 
 ### Reporting Issues
 1. **Location**: Tell us where the problem is
 2. **Category**: Pick from options like:
-   - Potholes & Road Issues 🛣️
-   - Water Problems 💧
-   - Electricity Issues ⚡
-   - Garbage Collection 🗑️
-   - And more!
+   - Potholes & Road Issues 
+   - Water Problems 
+   - Electricity Issues 
+   - Garbage Collection 🗑
+   
 3. **Description**: Write all the details about the issue
 4. **Attach Files**: Add photos or documents (optional)
 5. **Submit**: Hit the big green button and watch the progress bar!
 
 ### File Attachments
-- Click "📎 Add Files" to attach images or documents
+- Click " Add Files" to attach images or documents
 - Supports all file types (images, PDFs, Word docs, etc.)
 - Select multiple files at once
-- Remove files by selecting them and clicking "🗑️ Remove"
+- Remove files by selecting them and clicking " Remove"
 
-## Project Structure 📁
+## Project Structure 
 
 ```
 MuniServicesApp/
@@ -82,7 +82,7 @@ MuniServicesApp/
 └── App.config                   # Configuration file
 ```
 
-## Requirements Met ✅
+## Requirements Met 
 
 - ✅ Main menu with three options (Report Issues active, others disabled)
 - ✅ Location input textbox
@@ -97,7 +97,7 @@ MuniServicesApp/
 - ✅ Data structures for storing issues
 - ✅ Event handling for all interactions
 
-## Design Philosophy 🎨
+## Design Philosophy 
 
 This app uses a deliberately casual, less professional design approach:
 - Comic Sans MS font throughout
@@ -107,7 +107,7 @@ This app uses a deliberately casual, less professional design approach:
 - Casual language ("Oops!", "Don't forget!", "You're awesome!")
 - Light yellow background for a warm feel
 
-## Troubleshooting 🔧
+## Troubleshooting 
 
 **App won't start?**
 - Make sure .NET Framework 4.8 is installed
@@ -121,7 +121,7 @@ This app uses a deliberately casual, less professional design approach:
 - Fill in all required fields (location, category, description)
 - The app will tell you what's missing with friendly messages!
 
-## Future Features 🚀
+## Future Features 
 
 - Local Events and Announcements
 - Service Request Status tracking
@@ -131,4 +131,4 @@ This app uses a deliberately casual, less professional design approach:
 
 ---
 
-Made with 💖 for South African municipalities! Keep reporting those issues and making your community better! 🌟
+ST10226298
