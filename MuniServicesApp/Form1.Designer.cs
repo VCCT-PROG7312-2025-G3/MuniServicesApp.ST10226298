@@ -31,6 +31,7 @@ namespace MuniServicesApp
             this.btnReportIssues = new System.Windows.Forms.Button();
             this.btnLocalEvents = new System.Windows.Forms.Button();
             this.btnServiceStatus = new System.Windows.Forms.Button();
+            this.btnViewReports = new System.Windows.Forms.Button();
             this.lblTitle = new System.Windows.Forms.Label();
             this.lblWelcome = new System.Windows.Forms.Label();
             this.SuspendLayout();
@@ -49,19 +50,33 @@ namespace MuniServicesApp
             this.btnReportIssues.UseVisualStyleBackColor = false;
             this.btnReportIssues.Click += new System.EventHandler(this.btnReportIssues_Click);
             // 
+            // btnViewReports
+            // 
+            this.btnViewReports.BackColor = System.Drawing.Color.LightGreen;
+            this.btnViewReports.Font = new System.Drawing.Font("Comic Sans MS", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnViewReports.ForeColor = System.Drawing.Color.DarkBlue;
+            this.btnViewReports.Location = new System.Drawing.Point(200, 283);
+            this.btnViewReports.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnViewReports.Name = "btnViewReports";
+            this.btnViewReports.Size = new System.Drawing.Size(267, 74);
+            this.btnViewReports.TabIndex = 1;
+            this.btnViewReports.Text = "📊 View Reports";
+            this.btnViewReports.UseVisualStyleBackColor = false;
+            this.btnViewReports.Click += new System.EventHandler(this.btnViewReports_Click);
+            // 
             // btnLocalEvents
             // 
-            this.btnLocalEvents.BackColor = System.Drawing.Color.LightGray;
-            this.btnLocalEvents.Enabled = false;
-            this.btnLocalEvents.Font = new System.Drawing.Font("Comic Sans MS", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnLocalEvents.ForeColor = System.Drawing.Color.Gray;
-            this.btnLocalEvents.Location = new System.Drawing.Point(200, 283);
+            this.btnLocalEvents.BackColor = System.Drawing.Color.LightBlue;
+            this.btnLocalEvents.Font = new System.Drawing.Font("Comic Sans MS", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnLocalEvents.ForeColor = System.Drawing.Color.DarkBlue;
+            this.btnLocalEvents.Location = new System.Drawing.Point(200, 382);
             this.btnLocalEvents.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnLocalEvents.Name = "btnLocalEvents";
             this.btnLocalEvents.Size = new System.Drawing.Size(267, 74);
-            this.btnLocalEvents.TabIndex = 1;
-            this.btnLocalEvents.Text = "📅 Local Events\n(Coming Soon!)";
+            this.btnLocalEvents.TabIndex = 2;
+            this.btnLocalEvents.Text = "📅 Local Events";
             this.btnLocalEvents.UseVisualStyleBackColor = false;
+            this.btnLocalEvents.Click += new System.EventHandler(this.btnLocalEvents_Click);
             // 
             // btnServiceStatus
             // 
@@ -69,11 +84,11 @@ namespace MuniServicesApp
             this.btnServiceStatus.Enabled = false;
             this.btnServiceStatus.Font = new System.Drawing.Font("Comic Sans MS", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnServiceStatus.ForeColor = System.Drawing.Color.Gray;
-            this.btnServiceStatus.Location = new System.Drawing.Point(200, 382);
+            this.btnServiceStatus.Location = new System.Drawing.Point(200, 480);
             this.btnServiceStatus.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnServiceStatus.Name = "btnServiceStatus";
             this.btnServiceStatus.Size = new System.Drawing.Size(267, 74);
-            this.btnServiceStatus.TabIndex = 2;
+            this.btnServiceStatus.TabIndex = 3;
             this.btnServiceStatus.Text = "📋 Service Status\n(Coming Soon!)";
             this.btnServiceStatus.UseVisualStyleBackColor = false;
             // 
@@ -106,11 +121,12 @@ namespace MuniServicesApp
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.LightYellow;
-            this.ClientSize = new System.Drawing.Size(667, 554);
+            this.ClientSize = new System.Drawing.Size(667, 600);
             this.Controls.Add(this.lblWelcome);
             this.Controls.Add(this.lblTitle);
             this.Controls.Add(this.btnServiceStatus);
             this.Controls.Add(this.btnLocalEvents);
+            this.Controls.Add(this.btnViewReports);
             this.Controls.Add(this.btnReportIssues);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
@@ -126,6 +142,7 @@ namespace MuniServicesApp
         #endregion
 
         private System.Windows.Forms.Button btnReportIssues;
+        private System.Windows.Forms.Button btnViewReports;
         private System.Windows.Forms.Button btnLocalEvents;
         private System.Windows.Forms.Button btnServiceStatus;
         private System.Windows.Forms.Label lblTitle;

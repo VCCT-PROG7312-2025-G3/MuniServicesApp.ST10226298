@@ -23,5 +23,19 @@ namespace MuniServicesApp
             reportForm.Show();
             this.Hide();
         }
+
+        private void btnViewReports_Click(object sender, EventArgs e)
+        {
+            ViewReportsForm viewReportsForm = new ViewReportsForm();
+            viewReportsForm.Show();
+            this.Hide();
+        }
+
+        private void btnLocalEvents_Click(object sender, EventArgs e)
+        {
+            LocalEventsForm localEventsForm = new LocalEventsForm();
+            localEventsForm.Show();
+            this.Hide();
+        }
     }
 }
