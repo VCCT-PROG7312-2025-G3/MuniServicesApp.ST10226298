@@ -46,12 +46,20 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DataStructures\CustomLinkedList.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="LocalEventsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LocalEventsForm.Designer.cs">
+      <DependentUpon>LocalEventsForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Models\Event.cs" />
     <Compile Include="Models\Issue.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -61,9 +69,19 @@
     <Compile Include="ReportIssuesForm.Designer.cs">
       <DependentUpon>ReportIssuesForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="Services\EventManager.cs" />
     <Compile Include="Services\IssueManager.cs" />
+    <Compile Include="ViewReportsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ViewReportsForm.Designer.cs">
+      <DependentUpon>ViewReportsForm.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LocalEventsForm.resx">
+      <DependentUpon>LocalEventsForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -72,6 +90,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="ReportIssuesForm.resx">
       <DependentUpon>ReportIssuesForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ViewReportsForm.resx">
+      <DependentUpon>ViewReportsForm.cs</DependentUpon>
     </EmbeddedResource>
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
