@@ -2,9 +2,6 @@ using System;
 
 namespace MuniServicesApp.Models
 {
-    /// <summary>
-    /// Represents a local event or announcement
-    /// </summary>
     public class Event
     {
         public int Id { get; set; }
